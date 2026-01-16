@@ -36,8 +36,8 @@ El sistema actual de reporte no sirve eficientemente a ninguna de las partes. Es
 
 ## 3. Arquitectura Propuesta: Grado Institucional desde el Día Cero
 
-* **Capa de Contratos Inteligentes:** Desplegar en una parachain WASM como **Astar Network** (usando `ink!`) o EVM en **Moonbeam** (Solidity).
-* **Identidad Soberana:** Integración con **KILT Protocol** para gestionar las identidades digitales de Financiadores, ONGs y Productores.
+* **Capa de Contratos Inteligentes:** Desplegar en EVM en **Moonbeam** (Solidity).
+* **Identidad Soberana:** Infraestructura de Identidad Autosoberana Nativa (basada en Fuzzy Extractors y Contratos Inteligentes.
 * **Almacenamiento de Pruebas:** Los metadatos y pruebas (fotos, coordenadas GPS) se almacenarán en **IPFS/Crust**.
 * **Frontend:** Dos interfaces clave: una PWA para uso en campo y un Dashboard web para análisis.
 
@@ -89,7 +89,5 @@ El sistema actual de reporte no sirve eficientemente a ninguna de las partes. Es
 
 ## 5. Recursos y Apoyo
 
-* **Documentación Original:** (https://drive.google.com/drive/folders/16r_XB9_raOtDgPoWJEm3QNomtTQXlydk?usp=sharing)
-* **Diagramas de Flujo:** [Link a las imágenes PNG]
-* **Equipo de Apoyo:** Estaremos disponibles en (https://discord.gg/kFJwfrjBZ) para resolver dudas.
-* **Nodos y APIs:** Proveeremos acceso a un nodo de testnet de Astar/Moonbase.
+* **Documentación Original:** (https://drive.google.com/drive/folders/1BOMvdlPUV9b1goQGtwBO54a0jcIpighJ?usp=drive_link)
+* **Equipo de Apoyo:** Estaremos disponibles en (https://keyprotocol.ar) para resolver dudas.
