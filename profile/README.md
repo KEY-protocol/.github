@@ -67,15 +67,15 @@ IPFS (Pinata)
 
 key-protocol/
 
-├── contracts/       # Smart Contracts (Solidity)
+├── contracts/______# Smart Contracts (Solidity)
 
-├── frontend/        # Web App (React/Vite)
+├── frontend/_______# Web App (React/Vite)
 
-├── scripts/         # Scripts de despliegue y utilidades Python
+├── scripts/_________# Scripts de despliegue y utilidades Python
 
-├── docs/            # Documentación técnica y Whitepaper
+├── docs/___________# Documentación técnica y Whitepaper
 
-└── README.md        # Este archivo
+└── README.md____# Este archivo
 
 
 ## 🏁 Roadmap (MVP)
@@ -115,7 +115,7 @@ Abre un Pull Request.
 
 <br />
 <p align="center">
-<sub>Desarrollado con ❤️ en el Gran Chaco Argentino. Powered by Fundacion Gran Chaco, UTN, Latin Hack & NERDCONF.</sub>
+<sub>Desarrollado con ❤️ en el Gran Chaco Argentino by KEY protocol. Powered by Fundacion Gran Chaco, UTN, Latin Hack & NERDCONF.</sub>
 </p>
 
 
