@@ -50,16 +50,27 @@ Smart Contracts: Escritos en Solidity.
 ## 🛠️ Stack Tecnológico
 
 Componente
+
 Tecnología
+
 Frontend
+
 React, Vite, TailwindCSS
+
 Smart Contracts
+
 Solidity, Hardhat, Ethers.js
+
 Blockchain
+
 Astar Network (EVM)
+
 Backend / Scripting
+
 Python (Fuzzy Extractor, API Gateway)
+
 Storage
+
 IPFS (Pinata)
 
 
