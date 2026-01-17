@@ -36,9 +36,9 @@ El sistema actual de reporte no sirve eficientemente a ninguna de las partes. Es
 
 ## 3. Arquitectura Propuesta: Grado Institucional desde el Día Cero
 
-* **Capa de Contratos Inteligentes:** Desplegar en EVM en **Moonbeam** (Solidity).
+* **Capa de Contratos Inteligentes:** Despliegue de contratos EVM sobre Astar Network (Shibuya Testnet).
 * **Identidad Soberana:** Infraestructura de Identidad Autosoberana Nativa (basada en Fuzzy Extractors y Contratos Inteligentes.
-* **Almacenamiento de Pruebas:** Los metadatos y pruebas (fotos, coordenadas GPS) se almacenarán en **IPFS/Crust**.
+* **Almacenamiento de Pruebas:** Los metadatos y pruebas (fotos, coordenadas GPS) se almacenarán en **IPFS**.
 * **Frontend:** Dos interfaces clave: una PWA para uso en campo y un Dashboard web para análisis.
 
 ---
