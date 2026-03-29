@@ -24,8 +24,6 @@ KEY Protocol opera mediante una red federada de Nodos Soberanos, permitiendo que
 
 * **Cifrado en el Origen:** Los datos se encriptan localmente en el dispositivo. 
 
-Nada se almacena en texto plano, garantizando la seguridad en caso de pérdida del equipo.
-
 
 ## 🆔 Motor de Identidad Nativo
 
@@ -34,7 +32,7 @@ Nada se almacena en texto plano, garantizando la seguridad en caso de pérdida d
 * **Soberanía:** La identidad se genera y valida en el perímetro del Nodo; no dependemos de protocolos de identidad externos para el MVP, asegurando la propiedad intelectual y la privacidad absoluta.
 
 
-## ⛓️ Capa de Consenso (Astar Network)
+## ⛓️ Capa de Consenso
 
 * **Smart Contracts:** Desarrollados en Solidity.
 
@@ -47,7 +45,7 @@ Nada se almacena en texto plano, garantizando la seguridad en caso de pérdida d
 
 * **IPFS:** Almacenamiento descentralizado para los paquetes de evidencia cifrados.
 
-* **Servidor Intermedio (TEE Emulator):** Backend en Python que emula un entorno seguro para el procesamiento de IA (Google Vertex AI). Actúa como relayer de gas, eliminando la barrera técnica de gestionar billeteras cripto en el territorio.
+* **Servidor Intermedio (TEE Emulator):** Backend en Python que emula un entorno seguro para el procesamiento de IA. Actúa como relayer de gas, eliminando la barrera técnica de gestionar billeteras cripto en el territorio.
 
 
 ## 🛠️ Stack Tecnológico
@@ -70,7 +68,7 @@ Astar Network (EVM)
 
 Backend / Scripting
 
-Python (Fuzzy Extractor, API Gateway)
+Python (API Gateway)
 
 Storage
 
