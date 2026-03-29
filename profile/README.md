@@ -1,50 +1,53 @@
 # KEY Protocol 🗝️
 
-**Infraestructura de Verificación Confidencial para Impacto Social.**
+**Infraestructura de Verificación Confidencial para el Impacto Global.**
 
-KEY Protocol es una plataforma SaaS descentralizada que permite a las ONGs validar identidades y evidencias territoriales on-chain sin exponer datos sensibles. Conectamos la liquidez global con la ejecución local, garantizando privacidad y trazabilidad.
+KEY Protocol es una infraestructura de software diseñada para transformar la validación de impacto mediante la transparencia colaborativa. Resolvemos el dilema entre Transparencia vs. Privacidad mediante una arquitectura que permite ejecutar agentes de IA en entornos de computación confidencial. Esto facilita la validación de identidades y evidencias territoriales on-chain sin que los datos sensibles de los registros sean expuestos o utilizados para fines externos.
 
 **🌐 Website:** https://keyprotocol.ar
 
 
 ## 🚀 Misión
-El sector de impacto social mueve billones de dólares pero opera con herramientas obsoletas. KEY Protocol resuelve el dilema de la privacidad: ¿Cómo trazar fondos en blockchain sin vulnerar los datos de los beneficiarios?
 
-Nuestra solución permite tokenizar activos reales (RWA) de impacto (como hectáreas protegidas o habilidades adquiridas) mediante una arquitectura de Verificación Confidencial y Offline-First.
-
-
-## 🏗️ Arquitectura Técnica
-KEY Protocol opera bajo una arquitectura híbrida optimizada para el Gran Chaco y escalable globalmente:
-
-**📱 Capa de Cliente (Offline-First)**
-
-* **Web App (PWA):** Desarrollada en React/Vite.
-
-* **Captura Offline:** Captura de datos biométricos y evidencias en campo sin necesidad de internet.
-
-* **Persistencia Local:** Almacenamiento local seguro (IndexedDB) hasta la sincronización.
+El sector de impacto y la trazabilidad de activos reales mueven billones de dólares pero operan sobre infraestructura obsoleta. KEY Protocol permite tokenizar activos reales (RWA) —como hectáreas regeneradas, cumplimiento de normas corporativas o hitos sociales— mediante una arquitectura de verificación confidencial y Offline-First, conectando la liquidez global con la ejecución local.
 
 
-## 🆔 Motor de Identidad Nativa
+## 🏗️ Arquitectura Técnica (MVP Fase 1)
 
-* **Fuzzy Extractors:** Implementación propia (Python/WASM) para generar identificadores criptográficos estables a partir de biometría ruidosa.
+KEY Protocol opera mediante una red federada de Nodos Soberanos, permitiendo que cada organización (ONG, Empresa o Institución) mantenga el control total de sus datos operativos:
 
-* **Soberanía:** No dependemos de terceros; la identidad es soberana y generada en el dispositivo.
+**📱 Capa de Cliente (Field App)**
+
+* **Tecnología:** React Native (Expo).
+ 
+* **Captura Territorial:** Registro de activos, evidencias fotográficas, geolocalización y biometría en modo Offline-First.
+
+* **Cifrado en el Origen:** Los datos se encriptan localmente en el dispositivo. 
+
+Nada se almacena en texto plano, garantizando la seguridad en caso de pérdida del equipo.
+
+
+## 🆔 Motor de Identidad Nativo
+
+* **Vectorizado por IA Propio:** Implementamos un sistema interno que convierte datos biométricos ruidosos en vectores criptográficos estables.
+
+* **Soberanía:** La identidad se genera y valida en el perímetro del Nodo; no dependemos de protocolos de identidad externos para el MVP, asegurando la propiedad intelectual y la privacidad absoluta.
 
 
 ## ⛓️ Capa de Consenso (Astar Network)
-Smart Contracts: Escritos en Solidity.
 
-* **Red:** Desplegados en Astar Network (Shibuya Testnet / Astar Mainnet) aprovechando su compatibilidad EVM y su conexión con el ecosistema Polkadot.
+* **Smart Contracts:** Desarrollados en Solidity.
 
-* **Inmutabilidad:** Registro inmutable de hashes de validación y CIDs.
+* **Red:** Desplegados en Astar Network (EVM), aprovechando la escalabilidad del ecosistema Polkadot.
+
+* **Anclaje Inmutable:** Registramos exclusivamente el Hash de Identidad + CID, creando una prueba de impacto auditable públicamente sin revelar el contenido sensible.
 
 
-## 🔒 Almacenamiento & Privacidad
+## 🔒 Almacenamiento & Oráculo de Privacidad
 
-* **IPFS:** Datos sensibles encriptados y almacenados descentralizadamente.
+* **IPFS:** Almacenamiento descentralizado para los paquetes de evidencia cifrados.
 
-* **Validación Off-Chain:** Mediante nodos propios (emulación TEE) con roadmap hacia integración futura de Phala Network.
+* **Servidor Intermedio (TEE Emulator):** Backend en Python que emula un entorno seguro para el procesamiento de IA (Google Vertex AI). Actúa como relayer de gas, eliminando la barrera técnica de gestionar billeteras cripto en el territorio.
 
 
 ## 🛠️ Stack Tecnológico
@@ -91,28 +94,30 @@ key-protocol/
 
 ## 🏁 Roadmap (MVP)
 
-[x] Diseño de Arquitectura EVM (Astar).
+[x] Diseño de Arquitectura sobre Astar EVM.
 
-[x] Desarrollo de Web App (PWA) básica.
+[x] Desarrollo de la Field App (Captura Offline).
 
-[ ] Implementación de Fuzzy Extractor en Cliente.
+[x] Implementación del Motor de Vectorizado IA Propio.
 
-[ ] Integración con IPFS para evidencias encriptadas.
+[ ] Integración de Cifrado Asimétrico para Nodos.
 
-[ ] Despliegue de contratos en Shibuya Testnet.
+[ ] Despliegue de contratos en blockchain.
 
-[ ] Piloto con 5 ONGs en el Gran Chaco.
+[ ] Piloto territorial con Nodos en el Gran Chaco (5 ONGs).
 
 
 ## 🤝 Contribuir
 
-**¡Las contribuciones son bienvenidas!** Si eres desarrollador y te interesa el impacto social Web3:
-Haz un Fork del proyecto.
+**¡Las contribuciones son bienvenidas!** Si eres desarrollador o formas parte de una organización:
 
-Crea tu rama de funcionalidad (git checkout -b feature/AmazingFeature).
-Haz Commit de tus cambios (git commit -m 'Add some AmazingFeature').
-Haz Push a la rama (git push origin feature/AmazingFeature).
-Abre un Pull Request.
+* Haz un Fork del proyecto.
+
+* Crea tu rama de funcionalidad (git checkout -b feature/AmazingFeature).
+
+* Haz Commit de tus cambios.
+
+* Abre un Pull Request.
 
 
 ## 📞 Contacto & Comunidad
@@ -128,5 +133,3 @@ Abre un Pull Request.
 <p align="center">
 <sub>Desarrollado con ❤️ en el Gran Chaco Argentino by KEY protocol. Powered by Fundacion Gran Chaco, UTN, Latin Hack & NERDCONF.</sub>
 </p>
-
-
